@@ -1,5 +1,5 @@
 NAME
-    Suffix::Trie
+    Suffix::Trie - Native perl Suffix Trie
 
 SYNOPSIS
     A module for pure Perl Suffix Trie. Core code taken from

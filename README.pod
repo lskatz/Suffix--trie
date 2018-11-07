@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-Suffix::Trie
+Suffix::Trie - Native perl Suffix Trie
 
 =head1 SYNOPSIS
 
