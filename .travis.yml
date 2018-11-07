@@ -1,3 +1,5 @@
 language: perl
 perl: 5.18-shrplib
 env: PERL_CPANM_OPT="--verbose --notest --force --skip-satisfied"
+before_install:
+  - cpanm List::MoreUtils
