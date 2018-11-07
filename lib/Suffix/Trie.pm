@@ -33,7 +33,7 @@ local $SIG{'__DIE__'} = sub { my $e = $_[0]; $e =~ s/(at [^\s]+? line \d+\.$)/\n
 
 =head1 NAME
 
-Suffix::Trie
+Suffix::Trie - Native perl Suffix Trie
 
 =head1 SYNOPSIS
 
