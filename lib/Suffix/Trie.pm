@@ -37,7 +37,18 @@ Suffix::Trie
 
 =head1 SYNOPSIS
 
-A module for pure Perl Suffix Trie
+A module for pure Perl Suffix Trie. Core code taken from https://rosettacode.org/wiki/Suffix_tree#Perl
+
+  use strict;
+  use warnings;
+  use Data::Dumper;
+  use Suffix::Trie;
+
+  my $trie = Suffix::Trie->new("mississippi");
+  # Get all substrings into an array reference
+  print Dumper $trie->suffixes();
+  # Get the actual trie in a hash reference
+  print Dumper $trie->trie;
 
 =cut
 
